@@ -1,0 +1,6 @@
+/* quick and dirty hack to disable table headers on pages applying this file
+   - underset, 2026 */
+
+thead {
+    display: none;
+}

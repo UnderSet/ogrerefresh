@@ -1,0 +1,203 @@
+/* TAKEN AND EDITED FROM: https://archiveofourown.org/works/64821349/chapters/166587562
+   Original template by ManicMinic. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.momotalk-wrapper {
+  max-width: 32rem;
+  margin: 1rem auto;
+  border: 1px solid #b7c3d0;
+  border-radius: .5rem;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+
+.momotalk-banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fc94a8;
+  padding: .35rem .8rem;
+}
+
+.momotalk-banner>p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo-peach {
+  width: 1.45rem;
+  height: 1.45rem;
+  flex: 0 0 1.45rem;
+  margin-right: .45rem;
+}
+
+.logo-word {
+  height: 1.45rem;
+  flex: 0 0 auto;
+}
+
+.chat-window {
+  padding: .6rem .8rem .8rem .8rem;
+}
+
+.msg {
+  display: block;
+  position: relative;
+  padding-left: 4rem;
+  margin: .45rem 0;
+}
+
+.avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  flex: 0 0 2rem;
+  margin-right: .35rem;
+}
+
+img.avatar {
+  display: block;
+  margin: 0 .35rem 0 0;
+  object-fit: cover;
+}
+
+.speaker {
+  display: block;
+  font-size: .95rem;
+  font-weight: 700;
+  color: #4c5b6f;
+  line-height: 1.2;
+  margin: .05rem 0 .15rem;
+  font-family: "Open Sans","Noto Sans","Roboto","Segoe UI",sans-serif;
+}
+
+.bubble {
+  display: inline-block;
+  width: auto;
+  position: relative;
+  max-width: 78%;
+  padding: .3rem .6rem;
+  border-radius: .45rem;
+  font-size: .95rem;
+  line-height: 1.4;
+  word-break: break-word;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Open Sans","Noto Sans","Roboto","Segoe UI",sans-serif;
+}
+
+.msg.received>p:not(.bubble) {
+  margin: 0;
+  display: block;
+}
+
+.msg.received .bubble {
+  background: #4c5b6f;
+  margin: 0;
+}
+
+.msg.received .bubble:before {
+  content: "";
+  position: absolute;
+  left: -.35rem;
+  top: .35rem;
+  border-width: .45rem .45rem .45rem 0;
+  border-style: solid;
+  border-color: transparent #445b88 transparent transparent;
+}
+
+.msg.sent {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  text-align: right;
+  padding-left: 0;
+  padding-right: .8rem;
+}
+
+.msg.sent .avatar {
+  display: none;
+}
+
+.msg.sent .bubble {
+  background: #4a8ace;
+  margin-right: -.2rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.msg.sent .bubble:after {
+  content: "";
+  position: absolute;
+  right: -.35rem;
+  top: .35rem;
+  border-width: .45rem 0 .45rem .45rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #4a8ace;
+}
+
+.msg.system {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.msg.system .bubble {
+  color: #000000;
+  background: #e1e7eb;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  text-align: center;
+  max-width: 90%;
+  width: 90%; /* for parity with momotalk editor, which stmo originally used */
+  padding: .2rem .2rem;
+}
+
+.received.notail .bubble:before {
+  display: none;
+}
+
+.received.notail .bubble {
+  border-top-left-radius: .55rem;
+}
+
+.msg.received .bubble.image-bubble {
+  max-width: 30%;
+  background: #FFFFFF;
+  padding: 2%; /* Note, change this to 0; for no padding*/
+  border: 2px solid #E7E7E7;
+  border-radius: 0.55rem;
+  overflow: hidden;
+}
+
+.msg.sent .bubble.image-bubble {
+  max-width: 30%;
+  background: #FFFFFF;
+  padding: 2%;
+  border: 2px solid #E7E7E7;
+  border-radius: 0.55rem;
+  overflow: hidden;
+}
+
+.msg.sent .bubble.image-bubble:after {
+  display: none;
+}
+
+.bubble.image-bubble .momoimg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 0.25rem; /* Note, change this to 0; for no padding*/
+  box-sizing: border-box;
+  border-radius: 0.45rem;
+  border: 0.5px solid #FFFFFF; /* If you don't like whitespace between the image and bubble, change this to 0*/
+}
