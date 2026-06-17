@@ -1,5 +1,4 @@
-/* TAKEN AND EDITED FROM: https://archiveofourown.org/works/64821349/chapters/166587562
-   Original template by ManicMinic on AO3. Modified by UnderSet (me). */
+/* TAKEN FROM: https://archiveofourown.org/works/64821349/chapters/166587562 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .momotalk-wrapper {
@@ -173,18 +172,22 @@ img.avatar {
 .msg.received .bubble.image-bubble {
   max-width: 30%;
   background: #FFFFFF;
-  padding: 2%; /* Note, change this to 0; for no padding*/
+  padding: 0.5%; /* Note, change this to 0; for no padding*/
   border: 2px solid #E7E7E7;
-  border-radius: 0.55rem;
+  border-radius: 0.2rem;
   overflow: hidden;
+}
+
+.msg.received .bubble.image-bubble:before {
+  display: none;
 }
 
 .msg.sent .bubble.image-bubble {
   max-width: 30%;
   background: #FFFFFF;
-  padding: 2%;
+  padding: 0.5%;
   border: 2px solid #E7E7E7;
-  border-radius: 0.55rem;
+  border-radius: 0.2rem;
   overflow: hidden;
 }
 
@@ -196,8 +199,8 @@ img.avatar {
   max-width: 100%;
   height: auto;
   display: block;
-  padding: 0.25rem; /* Note, change this to 0; for no padding*/
+  padding: 0; /* Note, change this to 0; for no padding*/
   box-sizing: border-box;
-  border-radius: 0.45rem;
+  border-radius: 0rem;
   border: 0.5px solid #FFFFFF; /* If you don't like whitespace between the image and bubble, change this to 0*/
 }
