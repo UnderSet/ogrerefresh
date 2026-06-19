@@ -17,8 +17,8 @@ I don't really know how to describe this, really.
 |Day|Links|
 |:---|:---|
 |**<u>Prologue: Out of the Furnace</u>**|*Start of a strange journey.*|
-|- Day 01: Prologue|[Remastered](/01.html)<br>Original on Reddit: [Part I](https://www.reddit.com/r/BlueArchive/comments/1bn64eq/), [Part II](https://www.reddit.com/r/BlueArchive/comments/1byinsx/)|
-|- Day 02: Lock, Stock and Seven Smoking Barrels|[Remastered](/02.html)<br>Original on Reddit: [Part I](https://www.reddit.com/r/BlueArchive/comments/1byimff/), [Part II](https://www.reddit.com/r/BlueArchive/comments/1byinsx/)|
+|- Day 01: Prologue|[Remastered](./01.html)<br>Original on Reddit: [Part I](https://www.reddit.com/r/BlueArchive/comments/1bn64eq/), [Part II](https://www.reddit.com/r/BlueArchive/comments/1byinsx/)|
+|- Day 02: Lock, Stock and Seven Smoking Barrels|[Remastered](./02.html)<br>Original on Reddit: [Part I](https://www.reddit.com/r/BlueArchive/comments/1byimff/), [Part II](https://www.reddit.com/r/BlueArchive/comments/1byinsx/)|
 |**<u>Chapter One: Desert Debtor Blues</u>**|*Deserts, debt woes and things definitely not in a "teacher"'s job description.*|
 |- Day 03: Heatwaves|~~Remaster~~ Not yet available<br>Original on Reddit: [Part I](https://www.reddit.com/r/BlueArchive/comments/1cxnn2t/), [Part II](https://www.reddit.com/r/BlueArchive/comments/1cxnydt/), [Part III](https://www.reddit.com/r/BlueArchive/comments/1cxnzoy/)|
 |- Day 04: Interlude|~~Remaster~~ Not yet available<br>[Original on Reddit](https://www.reddit.com/r/BlueArchive/comments/1dbdvm7/)|
